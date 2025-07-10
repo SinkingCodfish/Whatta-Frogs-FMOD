@@ -4,6 +4,9 @@
 		<property name="builtBanksOutputDirectory">
 			<value>../../BoxGame/Content/FMOD</value>
 		</property>
+		<property name="builtBanksMirrorBrowserFolderHierarchy">
+			<value>true</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{1011b331-0df7-454b-a099-ea2fa4dd3aec}</destination>
 		</relationship>
