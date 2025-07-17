@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{160ab676-ab9c-45d2-8cce-fbeb239a3262}">
+	<object class="AudioFile" id="{3f6d9f8a-303e-48f0-958c-5fe679d22bcd}">
 		<property name="assetPath">
-			<value>Arcade/Child_voices.wav</value>
+			<value>Arcade/Child_voices.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>40.066349206349209</value>
+			<value>38.608979591836736</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>
