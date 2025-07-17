@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{d485e7d0-81e3-42a2-a766-e752be8715e7}">
+		<property name="name">
+			<value>Theme Perc</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84434c5e-121c-47c1-be5f-b0ffea8df4af}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4365e145-0d52-4ee6-9676-af0f68f0aa03}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4365e145-0d52-4ee6-9676-af0f68f0aa03}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

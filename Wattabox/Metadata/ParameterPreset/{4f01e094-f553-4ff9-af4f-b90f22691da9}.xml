@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{4f01e094-f553-4ff9-af4f-b90f22691da9}">
+		<property name="name">
+			<value>Space Ambiance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84434c5e-121c-47c1-be5f-b0ffea8df4af}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9f68f39a-f5c7-41f9-bd9d-08f5bfa5a3e8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9f68f39a-f5c7-41f9-bd9d-08f5bfa5a3e8}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
