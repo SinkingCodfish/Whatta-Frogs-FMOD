@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{c2c05993-e1d7-41ac-bc44-0a3f4d353066}">
+		<property name="name">
+			<value>Forklift Reverse Volume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84434c5e-121c-47c1-be5f-b0ffea8df4af}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{026af59f-eeb0-4c59-ac8f-fc10c2e92d5c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{026af59f-eeb0-4c59-ac8f-fc10c2e92d5c}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
