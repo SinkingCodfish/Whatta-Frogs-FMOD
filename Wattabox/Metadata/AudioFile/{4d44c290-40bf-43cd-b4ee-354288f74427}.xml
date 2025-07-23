@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{8e369a5c-e95e-44de-aadf-e6384c93fa09}">
+	<object class="AudioFile" id="{4d44c290-40bf-43cd-b4ee-354288f74427}">
 		<property name="assetPath">
-			<value>Planetário/Helmet/Helmet 2.wav</value>
+			<value>Planetário/Helmet/Helmet Open 3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
