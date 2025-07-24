@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{be171a16-700c-4aff-b42e-6f277f58c5e3}">
+		<property name="name">
+			<value>QuietlyMusic</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84434c5e-121c-47c1-be5f-b0ffea8df4af}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c17f7902-6b86-43fe-baa7-9b4d365cd430}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c17f7902-6b86-43fe-baa7-9b4d365cd430}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

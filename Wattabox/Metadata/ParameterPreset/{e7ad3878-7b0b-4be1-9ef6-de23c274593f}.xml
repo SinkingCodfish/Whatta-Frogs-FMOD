@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e7ad3878-7b0b-4be1-9ef6-de23c274593f}">
+		<property name="name">
+			<value>LouderMusic</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84434c5e-121c-47c1-be5f-b0ffea8df4af}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{96a48245-f9ae-4dd0-8c2c-e4c9c1d31fbe}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{96a48245-f9ae-4dd0-8c2c-e4c9c1d31fbe}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
