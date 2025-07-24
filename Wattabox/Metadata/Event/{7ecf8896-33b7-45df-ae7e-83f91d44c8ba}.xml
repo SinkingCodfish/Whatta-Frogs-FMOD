@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7ecf8896-33b7-45df-ae7e-83f91d44c8ba}">
 		<property name="name">
-			<value>Ambiance sfx</value>
+			<value>Music</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -163,6 +163,7 @@
 		<relationship name="sounds">
 			<destination>{ba573f86-5422-4f43-91b6-062d6a37f3e7}</destination>
 			<destination>{5b5b67e9-3282-4c81-a180-296b046210ec}</destination>
+			<destination>{2772d9bb-e6ee-45b5-a91f-e73c7b5fe58d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c30450e8-9b73-4340-8837-45a619a7edd7}">
@@ -241,6 +242,11 @@
 	<object class="SingleSound" id="{5b5b67e9-3282-4c81-a180-296b046210ec}">
 		<relationship name="audioFile">
 			<destination>{883effc1-4a4e-4880-a0d9-aef1f84573ac}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{2772d9bb-e6ee-45b5-a91f-e73c7b5fe58d}">
+		<relationship name="audioFile">
+			<destination>{7d4a1029-965c-4e04-8965-dfc3761048d8}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{a6defa2b-e046-474c-bcc6-7f6656bf296a}">
