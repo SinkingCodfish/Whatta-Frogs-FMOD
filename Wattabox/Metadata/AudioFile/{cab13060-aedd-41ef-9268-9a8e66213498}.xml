@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{cea5234c-7fbc-49be-99ee-6fb19e757bd9}">
+	<object class="AudioFile" id="{cab13060-aedd-41ef-9268-9a8e66213498}">
 		<property name="assetPath">
 			<value>Geral/Steps/Steps_04.mp3</value>
 		</property>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.1306122448979592</value>
+			<value>0.57469387755102042</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>
