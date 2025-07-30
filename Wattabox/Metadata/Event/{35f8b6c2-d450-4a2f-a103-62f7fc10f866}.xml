@@ -57,7 +57,11 @@
 			<destination>{08bb17ad-4a04-48f5-bdc6-2ad3d47c837c}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{1092c49b-bf9f-4a38-8999-3819b7c07a99}" />
+	<object class="EventAutomatableProperties" id="{1092c49b-bf9f-4a38-8999-3819b7c07a99}">
+		<property name="maximumDistance">
+			<value>3.20000005</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{96c41c15-b508-435b-99cc-f1330712642a}" />
 	<object class="GroupTrack" id="{60d6d2da-32b5-40a6-a91a-5f9557d211b2}">
 		<relationship name="modules">
@@ -113,6 +117,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9b2513b4-e6d9-4a30-9feb-69c3dd8b9e94}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -134,13 +141,10 @@
 			<value>1</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>30000</value>
+			<value>20000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>90000</value>
-		</property>
-		<property name="spawnRate">
-			<value>50</value>
+			<value>60000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
@@ -153,6 +157,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{efbfc6e9-47cc-4ee0-9137-814080fc9d39}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
