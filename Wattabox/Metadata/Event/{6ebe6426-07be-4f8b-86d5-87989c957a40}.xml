@@ -5,7 +5,7 @@
 			<value>Claw_machine_moving_up</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9fdcc9b5-736a-420c-a748-2e82fde24a32}</destination>
@@ -84,7 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{bc587ed1-0bc3-4d5d-84a1-602bfc17ecbd}">
 		<relationship name="sounds">
-			<destination>{6cca294f-7a9e-47ff-9ec5-88d30ad4c87c}</destination>
+			<destination>{c3e6ab74-2d9f-4e83-8260-acc80cad843a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{04e08222-def4-4208-a2e1-49070e8f9358}">
@@ -99,9 +99,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{52e209a7-9b09-4468-a5b3-e8dad785de52}" />
-	<object class="SingleSound" id="{6cca294f-7a9e-47ff-9ec5-88d30ad4c87c}">
+	<object class="SingleSound" id="{c3e6ab74-2d9f-4e83-8260-acc80cad843a}">
 		<relationship name="audioFile">
-			<destination>{d88a33c1-c92c-4301-804f-c82aa5f08d08}</destination>
+			<destination>{e79d34ba-f24d-45f9-8ff8-d16d1e1f8cd3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{8505dc3d-b805-4079-91aa-c3886cab2724}" />
