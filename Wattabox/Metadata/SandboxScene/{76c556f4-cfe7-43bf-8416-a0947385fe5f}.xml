@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SandboxScene" id="{76c556f4-cfe7-43bf-8416-a0947385fe5f}">
+		<property name="name">
+			<value>PEEPEECACA</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c14dbf54-d05c-4328-bf12-2736345101aa}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{50c12804-17be-414b-9f7b-606c4366ed53}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{4aa8d3f9-deeb-4119-a8f4-088784880ca1}</destination>
+		</relationship>
+		<relationship name="sandboxParameters">
+			<destination>{8f3ad658-c05b-44de-81af-6d4005584948}</destination>
+			<destination>{8cc8b779-b85e-41d1-92a5-2317b79850b4}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{50c12804-17be-414b-9f7b-606c4366ed53}" />
+	<object class="Timeline" id="{4aa8d3f9-deeb-4119-a8f4-088784880ca1}" />
+	<object class="SandboxParameter" id="{8f3ad658-c05b-44de-81af-6d4005584948}">
+		<property name="parameterValue">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{9f68f39a-f5c7-41f9-bd9d-08f5bfa5a3e8}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxParameter" id="{8cc8b779-b85e-41d1-92a5-2317b79850b4}">
+		<property name="parameterValue">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a985ef1d-5c36-4284-9b9e-e903b5498899}</destination>
+		</relationship>
+	</object>
+</objects>
