@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{8c80dedb-61a9-4cda-a703-dd2d79470ebd}">
+		<property name="name">
+			<value>Arcade Perucssion</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fa9cf726-b3df-448f-98dd-122879cc7d43}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1a280c1d-a298-41c0-8e5a-92fdbb0ad644}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1a280c1d-a298-41c0-8e5a-92fdbb0ad644}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

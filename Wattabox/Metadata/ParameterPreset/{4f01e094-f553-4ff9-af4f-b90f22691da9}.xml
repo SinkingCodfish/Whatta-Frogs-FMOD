@@ -5,7 +5,7 @@
 			<value>Space Ambiance</value>
 		</property>
 		<relationship name="folder">
-			<destination>{84434c5e-121c-47c1-be5f-b0ffea8df4af}</destination>
+			<destination>{148aebb8-2490-4486-884d-9325178f68d0}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{9f68f39a-f5c7-41f9-bd9d-08f5bfa5a3e8}</destination>
