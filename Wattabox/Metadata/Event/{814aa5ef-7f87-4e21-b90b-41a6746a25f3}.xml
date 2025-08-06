@@ -5,7 +5,7 @@
 			<value>Planetary_BGM</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c7c25b27-9046-473d-b3a9-d59ec410a8bc}</destination>
@@ -244,7 +244,6 @@
 	<object class="MixerBusEffectChain" id="{2f102b81-c713-4091-9b47-7ac0c33af59b}">
 		<relationship name="effects">
 			<destination>{fed0d064-38d4-4916-978e-dbbad3793a78}</destination>
-			<destination>{409597b6-b21b-4999-8bfe-2f4a5b063e4e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e6dca02e-9ea2-4233-b508-540147d220cc}" />
@@ -308,7 +307,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{1d8f8c56-069c-4380-8cf3-9752dd66a2cb}" />
 	<object class="MixerBusFader" id="{fed0d064-38d4-4916-978e-dbbad3793a78}" />
-	<object class="SpatialiserEffect" id="{409597b6-b21b-4999-8bfe-2f4a5b063e4e}" />
 	<object class="AutomationCurve" id="{64914154-7876-4883-8a9a-2485df9251b5}">
 		<relationship name="parameter">
 			<destination>{4365e145-0d52-4ee6-9676-af0f68f0aa03}</destination>
