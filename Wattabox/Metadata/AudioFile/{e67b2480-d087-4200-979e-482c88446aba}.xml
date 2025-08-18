@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{612f45ad-dfeb-4170-aa05-ab9b7fffbe49}">
+	<object class="AudioFile" id="{e67b2480-d087-4200-979e-482c88446aba}">
 		<property name="assetPath">
-			<value>Circus/Music_Ambiance/Whatta Frog_Circus_Music_low5.mp3</value>
+			<value>Circus/Music_Ambiance/Whatta Frog_Circus_Music_low6.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
