@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8e3e7f78-a031-45a7-a71d-65e32dd92bb4}">
 		<property name="name">
-			<value>Music</value>
+			<value>Menu_Music</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1011b331-0df7-454b-a099-ea2fa4dd3aec}</destination>
+			<destination>{5e90e5bd-d506-4521-a95d-668ff01e8f2d}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{460e2fd0-9a6c-410c-8168-477e92ae4580}</destination>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{bc2db40e-da56-4757-af4f-0273e34b1024}" />
 	<object class="GroupTrack" id="{30b2224a-77b1-4445-894f-b16d4bdaa3fd}">
 		<relationship name="modules">
-			<destination>{ff6196c8-a2ca-4301-8830-9427bc9470cd}</destination>
+			<destination>{abd4a492-f4c8-45ab-b8e6-6dcd6234adf3}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{03776f6b-8528-44d0-bc4e-446ab446fd34}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{b58417d3-b307-47a0-adf3-72c8f4b2482f}">
 		<relationship name="modules">
-			<destination>{ff6196c8-a2ca-4301-8830-9427bc9470cd}</destination>
+			<destination>{abd4a492-f4c8-45ab-b8e6-6dcd6234adf3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e99aa4c3-f8be-4aad-b2ff-a538e876d3b1}">
@@ -88,13 +88,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5ad8bf00-f6a7-4ae6-97d8-af23f95411e1}" />
-	<object class="MultiSound" id="{ff6196c8-a2ca-4301-8830-9427bc9470cd}">
+	<object class="SingleSound" id="{abd4a492-f4c8-45ab-b8e6-6dcd6234adf3}">
 		<property name="length">
-			<value>2</value>
+			<value>176.03918367346938</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
+		<relationship name="audioFile">
+			<destination>{3a9f5a29-cb97-4b06-9d3d-b9d15c6ea782}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{03776f6b-8528-44d0-bc4e-446ab446fd34}">
 		<property name="name">
