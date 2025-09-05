@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{ef343921-ff3a-47b0-9ed8-4b56c7f19f7f}">
+		<property name="name">
+			<value>Garagem Radio</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{23b35709-d46f-4f4c-b961-74f52609cffd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c7959ad5-007e-49f9-b049-b1b4aaf39176}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1238acb4-faa5-47db-bc2e-76e1db03bc42}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{23b35709-d46f-4f4c-b961-74f52609cffd}">
+		<relationship name="effects">
+			<destination>{20dfde47-25ca-4163-89db-8d65b35326f6}</destination>
+			<destination>{e295aa6a-7a55-47b9-898f-266ebc032be8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c7959ad5-007e-49f9-b049-b1b4aaf39176}" />
+	<object class="MixerBusFader" id="{20dfde47-25ca-4163-89db-8d65b35326f6}" />
+	<object class="Sidechain" id="{e295aa6a-7a55-47b9-898f-266ebc032be8}" />
+</objects>
