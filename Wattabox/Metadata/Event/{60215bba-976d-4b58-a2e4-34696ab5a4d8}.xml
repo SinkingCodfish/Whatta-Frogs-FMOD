@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{60215bba-976d-4b58-a2e4-34696ab5a4d8}">
 		<property name="name">
-			<value>Pop</value>
+			<value>Pop_object</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -108,7 +108,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{e681c46b-aed1-41d4-9c90-c9933ff90153}" />
 	<object class="MultiSound" id="{c44b3788-db27-42d7-9f37-f225d33e3a18}">
-		<property name="name" />
 		<property name="pitch">
 			<value>-0.699999988</value>
 		</property>
