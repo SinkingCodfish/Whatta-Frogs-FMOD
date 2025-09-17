@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{ca9552f0-6864-47ea-9415-170d96d80f37}">
+		<property name="name">
+			<value>Throwable_Objects</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1011b331-0df7-454b-a099-ea2fa4dd3aec}</destination>
+		</relationship>
+	</object>
+</objects>
