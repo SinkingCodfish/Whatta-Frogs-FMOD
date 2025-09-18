@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a1c0cfed-a67c-43f8-9bcd-c298b447edb2}">
 		<property name="name">
-			<value>Tomato_throw</value>
+			<value>Tomato_hit</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -84,7 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{5805dec9-90d4-4e34-97a2-82a5016f7eb7}">
 		<relationship name="sounds">
-			<destination>{ee7f7298-e3b1-43ec-b792-d2508d327d03}</destination>
+			<destination>{6c8dd399-234c-4a59-bf20-5d42d09b2c0b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c6a394ab-9c85-4192-ace5-c4a18919d882}">
@@ -99,9 +99,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{81f1df22-fee7-43e3-ba26-8935f1f5ae83}" />
-	<object class="SingleSound" id="{ee7f7298-e3b1-43ec-b792-d2508d327d03}">
+	<object class="SingleSound" id="{6c8dd399-234c-4a59-bf20-5d42d09b2c0b}">
 		<relationship name="audioFile">
-			<destination>{e5e3a4aa-07e6-4449-a9c4-0adc39ccf251}</destination>
+			<destination>{a62a9ee5-d766-4113-b4a8-a770197e3c87}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ed3afc67-0701-4376-9cfa-2f3ba6807d21}" />

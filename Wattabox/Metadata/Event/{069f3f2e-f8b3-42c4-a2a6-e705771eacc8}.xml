@@ -83,8 +83,11 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{540d24e5-2dab-4c29-87d6-70723172d48f}">
+		<property name="playbackMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
-			<destination>{a8d4008f-a195-4b9b-ab25-63edac3ca339}</destination>
+			<destination>{0d9c9bc7-f41d-4ae5-a018-b5bfbf5c2d78}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{b598e860-3db7-46ba-8ff4-8e6f283f756a}">
@@ -99,28 +102,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{393ba409-6002-4c34-8b4d-fd8ee2cd447a}" />
-	<object class="MultiSound" id="{a8d4008f-a195-4b9b-ab25-63edac3ca339}">
-		<relationship name="sounds">
-			<destination>{ed0d1e5d-8dce-4a70-bde3-3df9a28c4a1a}</destination>
-			<destination>{2629307a-70f5-42a4-b5e4-bc04a7e25031}</destination>
-			<destination>{55e78adb-528a-42d9-bd5c-c7362cca4125}</destination>
+	<object class="SingleSound" id="{0d9c9bc7-f41d-4ae5-a018-b5bfbf5c2d78}">
+		<property name="startOffset">
+			<value>34.5</value>
+		</property>
+		<property name="volume">
+			<value>-5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{8bce8291-7a46-46d7-bc77-33ba3945075b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ea801c8b-3c8c-4545-9c37-4d4dddf8c2b4}" />
 	<object class="MixerBusFader" id="{9efb0bca-6a12-4747-92ba-26f31f0309e8}" />
-	<object class="SingleSound" id="{ed0d1e5d-8dce-4a70-bde3-3df9a28c4a1a}">
-		<relationship name="audioFile">
-			<destination>{a43ffbaf-a755-4c5f-ab90-bc5004080266}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{2629307a-70f5-42a4-b5e4-bc04a7e25031}">
-		<relationship name="audioFile">
-			<destination>{394e8728-2013-4a16-85d3-466b0c795b1f}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{55e78adb-528a-42d9-bd5c-c7362cca4125}">
-		<relationship name="audioFile">
-			<destination>{ee18ef26-cb68-4d70-9c0d-94245ef852f7}</destination>
-		</relationship>
-	</object>
 </objects>
