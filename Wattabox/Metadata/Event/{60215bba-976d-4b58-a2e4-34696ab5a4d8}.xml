@@ -97,6 +97,7 @@
 		<relationship name="sounds">
 			<destination>{c44b3788-db27-42d7-9f37-f225d33e3a18}</destination>
 			<destination>{d22544a7-16d6-4ab5-8bce-1508e1dd185c}</destination>
+			<destination>{ccd380c3-e0f9-4420-a35a-b8336f7b508a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ab8c36e9-3aef-4578-9c3d-ebc5abc7b34a}">
@@ -116,10 +117,13 @@
 			<value>-1</value>
 		</property>
 		<property name="pitch">
-			<value>-0.699999988</value>
+			<value>2.4000001</value>
 		</property>
 		<relationship name="automators">
 			<destination>{26f82408-450b-4da2-84b5-c2d88b6ee751}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{77fc6328-806a-4f7c-8e9e-3fa953121651}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{bfed0f19-b310-4cfa-a070-a3d4b3512c07}</destination>
@@ -129,10 +133,18 @@
 	</object>
 	<object class="MultiSound" id="{d22544a7-16d6-4ab5-8bce-1508e1dd185c}">
 		<property name="volume">
-			<value>4.5</value>
+			<value>2.5</value>
+		</property>
+		<property name="pitch">
+			<value>6</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{9f3352fb-0379-49e5-a45c-3ae588a503ec}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ccd380c3-e0f9-4420-a35a-b8336f7b508a}">
+		<relationship name="audioFile">
+			<destination>{26bafdfb-2ac8-448c-954f-b69813934ebc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bd572db2-0899-4621-b26f-ebaad5e5a4bd}" />
@@ -140,6 +152,14 @@
 	<object class="Automator" id="{26f82408-450b-4da2-84b5-c2d88b6ee751}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{77fc6328-806a-4f7c-8e9e-3fa953121651}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>9.5</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{bfed0f19-b310-4cfa-a070-a3d4b3512c07}">

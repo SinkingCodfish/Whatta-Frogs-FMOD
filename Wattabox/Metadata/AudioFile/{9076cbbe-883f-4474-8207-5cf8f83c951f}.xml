@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{a43ffbaf-a755-4c5f-ab90-bc5004080266}">
+	<object class="AudioFile" id="{9076cbbe-883f-4474-8207-5cf8f83c951f}">
 		<property name="assetPath">
-			<value>Throwable_Objects/Fly/Fly_grab_01.mp3</value>
+			<value>Throwable_Objects/Chiclet/Chiclet_drop.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.31346938775510202</value>
+			<value>0.57599999999999996</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>

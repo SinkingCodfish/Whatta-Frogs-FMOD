@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d6025e97-18b7-45fe-99e0-a570388ed637}">
 		<property name="assetPath">
-			<value>Throwable_Objects/Apple_grab.mp3</value>
+			<value>Throwable_Objects/Apple/Apple_grab.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
