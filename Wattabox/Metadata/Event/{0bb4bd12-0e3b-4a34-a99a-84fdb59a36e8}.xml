@@ -116,7 +116,7 @@
 			<value>Grab Generic</value>
 		</property>
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-13</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{a1ee0665-e013-4016-aeb8-5a5b368dbfdc}</destination>
@@ -127,7 +127,7 @@
 	</object>
 	<object class="MultiSound" id="{bea8d640-e148-4d4e-9711-9563aaccba51}">
 		<property name="volume">
-			<value>5</value>
+			<value>-9</value>
 		</property>
 		<relationship name="automators">
 			<destination>{a7d7ca59-64dc-47f5-bdac-41cbc29b3bc5}</destination>

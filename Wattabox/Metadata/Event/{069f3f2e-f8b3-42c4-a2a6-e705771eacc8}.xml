@@ -113,7 +113,7 @@
 	</object>
 	<object class="MultiSound" id="{7e9ce7fd-71d5-471f-8992-3574a5f16039}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-9.5</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{18304384-6ea0-4852-bc36-e9c2853ea94f}</destination>
