@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{767881b0-9bde-483b-8919-25f36e511a3d}">
+		<property name="assetPath">
+			<value>Throwable_Objects/Ball_Gun/Gun_shot_03.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.49632653061224491</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>
+		</relationship>
+	</object>
+</objects>
