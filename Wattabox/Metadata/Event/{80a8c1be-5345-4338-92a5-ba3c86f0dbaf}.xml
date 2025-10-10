@@ -108,6 +108,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{fcf59c1f-6d35-4564-8ae9-77ead641e9bd}" />
 	<object class="MultiSound" id="{92e84971-2b6a-4550-81f4-a7b848b4dcd0}">
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
 		<relationship name="automators">
 			<destination>{17e67395-aa11-49d2-a951-a8b568e14666}</destination>
 		</relationship>
@@ -140,31 +143,49 @@
 		</property>
 	</object>
 	<object class="SingleSound" id="{c94e62cd-8eb9-463f-9fdd-92505aaa19f0}">
+		<property name="startOffset">
+			<value>8.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3b22b814-bc04-4f26-b197-f293925ff498}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{52a6f62c-b87b-4947-b7ca-7362569ad5f3}">
+		<property name="startOffset">
+			<value>6.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9d64da9b-1a94-4706-adf6-12860756184f}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7f60dab5-db8b-47ce-bfeb-fd7bc1dbfa1f}">
+		<property name="startOffset">
+			<value>6.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{20be69e2-9ac3-4b6f-8ab7-eba73ea9ed42}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{16d6c8e1-618a-4f49-b41a-86f3c931a3ca}">
+		<property name="startOffset">
+			<value>7.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{394ed6aa-bbae-495e-a95d-cd1f3e78e4ba}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e3e47423-0e4e-4a74-8d45-b3c5a5df6853}">
+		<property name="startOffset">
+			<value>7</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{eeacbd5a-129c-4d8e-9c5d-4021ece91b45}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1674b25f-8cc0-4dda-ae60-ea47321b6ea6}">
+		<property name="startOffset">
+			<value>8</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{2435523e-2366-4731-ba3f-06361e4412b3}</destination>
 		</relationship>

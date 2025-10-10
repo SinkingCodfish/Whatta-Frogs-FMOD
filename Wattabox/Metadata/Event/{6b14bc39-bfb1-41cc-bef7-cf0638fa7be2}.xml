@@ -109,7 +109,7 @@
 	<object class="MixerBusPanner" id="{cea0aeff-2011-4f91-830d-5ecbf29a2359}" />
 	<object class="MultiSound" id="{52dde946-7c52-4f65-a1dd-154afbea6a50}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-2</value>
 		</property>
 		<property name="pitch">
 			<value>1.80000007</value>
@@ -146,21 +146,33 @@
 		</property>
 	</object>
 	<object class="SingleSound" id="{fd03be10-d7a1-43e0-bac4-c9e6729054ea}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{57f1137e-c4b2-4060-8ed4-7fd70e4a9aa4}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{48ecdb9b-6026-4b19-8433-3995fd8beff4}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{1622dd99-3a8e-48ff-ac89-1a682cab8ed9}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{46b2d747-c8f8-4391-8090-11ffea457ca4}">
+		<property name="startOffset">
+			<value>3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{d357096b-35d4-42c8-829b-5bc02fbc7c90}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{2fa59ac7-5271-46da-bc03-cc2b89d166b9}">
+		<property name="startOffset">
+			<value>3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4b17e739-7794-4002-b97b-f43cedfb2213}</destination>
 		</relationship>
@@ -171,11 +183,17 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b0b8c4ad-ae67-46e6-a0ce-75879deb4105}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{deb7eace-6fb4-4285-8ddd-8663fbeb721e}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1b70acfd-55eb-4d20-a1d7-62c923f20e13}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{29e22131-1567-4d2f-890c-4a122336719e}</destination>
 		</relationship>

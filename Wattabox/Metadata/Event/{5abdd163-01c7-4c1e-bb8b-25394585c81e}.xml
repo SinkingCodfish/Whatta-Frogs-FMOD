@@ -76,7 +76,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{2bd422ca-b539-4eaa-898f-3351f7182e9c}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-1</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{044d13c3-c246-41b8-aea0-25ac2996cffb}</destination>
@@ -112,7 +112,7 @@
 	<object class="MixerBusPanner" id="{0d1dcbb2-8653-49d7-8d3e-989106d95211}" />
 	<object class="MultiSound" id="{5c60c26a-1c7f-4644-ac25-3a6b481297ad}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-10</value>
 		</property>
 		<relationship name="automators">
 			<destination>{9c3a16cc-da3d-4f51-80d2-713fde804ebe}</destination>
@@ -124,7 +124,6 @@
 			<destination>{17666d1e-19dd-4b24-b42e-0923f113bab3}</destination>
 			<destination>{38823f08-12f2-4fc6-aa33-7ee9135f7ddb}</destination>
 			<destination>{b272a4c5-518e-4485-8773-d99230bb2f83}</destination>
-			<destination>{feb1f4fc-717a-464c-b33b-dc9913deee8a}</destination>
 			<destination>{32540ad8-f70a-40d2-ace5-10a82d8591bf}</destination>
 			<destination>{27fc4f6b-37ca-4fab-bf6a-a522037fccf5}</destination>
 		</relationship>
@@ -146,33 +145,40 @@
 	</object>
 	<object class="SingleSound" id="{17666d1e-19dd-4b24-b42e-0923f113bab3}">
 		<property name="startOffset">
-			<value>13</value>
+			<value>4</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{ef782937-ae0c-42d6-8b2c-da7a6b6b0c68}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{38823f08-12f2-4fc6-aa33-7ee9135f7ddb}">
+		<property name="startOffset">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{78f209fc-0fee-415a-81e8-fdaf8e9108c3}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b272a4c5-518e-4485-8773-d99230bb2f83}">
+		<property name="startOffset">
+			<value>4.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{db1ca9d2-57c7-49f2-b842-f7f7fbb297aa}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{feb1f4fc-717a-464c-b33b-dc9913deee8a}">
-		<relationship name="audioFile">
-			<destination>{47b8db62-a415-4ccd-8ee2-1cc90e8b914a}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{32540ad8-f70a-40d2-ace5-10a82d8591bf}">
+		<property name="startOffset">
+			<value>6</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{b9b91f1d-ff2b-4d4b-8c34-48577510ea38}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{27fc4f6b-37ca-4fab-bf6a-a522037fccf5}">
+		<property name="startOffset">
+			<value>3.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{d54910cd-75d7-4488-a059-d9998d2525b6}</destination>
 		</relationship>

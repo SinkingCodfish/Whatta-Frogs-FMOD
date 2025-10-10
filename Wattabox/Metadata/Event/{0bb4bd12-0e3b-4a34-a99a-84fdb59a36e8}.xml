@@ -116,7 +116,7 @@
 			<value>Grab Generic</value>
 		</property>
 		<property name="volume">
-			<value>-13</value>
+			<value>-15</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{5625dab4-c7ca-4e51-a0d8-bdb8b914bca0}</destination>
@@ -128,7 +128,7 @@
 	</object>
 	<object class="MultiSound" id="{bea8d640-e148-4d4e-9711-9563aaccba51}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-11</value>
 		</property>
 		<relationship name="automators">
 			<destination>{a7d7ca59-64dc-47f5-bdac-41cbc29b3bc5}</destination>
@@ -144,26 +144,41 @@
 	<object class="MixerBusFader" id="{bbf45eb0-cbaf-430b-854c-2712a71f9b15}" />
 	<object class="MixerBusFader" id="{810cd0b4-6219-4521-bab4-5302c294abfc}" />
 	<object class="SingleSound" id="{5625dab4-c7ca-4e51-a0d8-bdb8b914bca0}">
+		<property name="startOffset">
+			<value>7</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{adf5f115-9c8b-435f-a83d-12a54b4ed613}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{f8cc2360-9831-4673-93d6-eb7cbd893a75}">
+		<property name="startOffset">
+			<value>5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{81e66635-badd-4386-a695-89fac9195d49}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e78ee484-d39c-4e07-93f6-38a181dd1ae7}">
+		<property name="startOffset">
+			<value>3.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{25403a43-e06b-4fab-84dc-5f8243935458}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{5dc2da4d-1c3b-48dc-b614-d7e0830245bb}">
+		<property name="startOffset">
+			<value>6</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6a32f53a-1dfa-4b71-a063-d114af583d6a}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b4f6adf0-1caf-455e-bc29-82c184be1e70}">
+		<property name="startOffset">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9ff2c5ed-0790-4605-b81b-9a3001044269}</destination>
 		</relationship>
