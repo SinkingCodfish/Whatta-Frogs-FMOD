@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{eeacbd5a-129c-4d8e-9c5d-4021ece91b45}">
+	<object class="AudioFile" id="{8dbdb8bb-7b05-4e45-98dc-d0cb2a6db3a0}">
 		<property name="assetPath">
-			<value>Throwable_Objects/Character_hit_06.mp3</value>
+			<value>Throwable_Objects/Basketball/Basketball_hit_03.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.3395918367346939</value>
+			<value>0.44408163265306122</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>
