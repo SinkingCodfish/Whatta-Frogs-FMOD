@@ -5,7 +5,7 @@
 			<value>Apple_drop</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{4dc688e9-fedd-4586-a5c5-677091e63ca9}">
 		<relationship name="effects">
 			<destination>{fbe20d77-e7c8-4218-958b-ae7282fdd845}</destination>
+			<destination>{ececbce0-0e52-478b-9adb-5fd977ec8955}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{33d93f82-3ede-4763-a437-c703adc8b512}" />
@@ -115,4 +116,9 @@
 	</object>
 	<object class="MixerBusFader" id="{11f8fde3-44d3-4f70-8d70-d2f77ee426cd}" />
 	<object class="MixerBusFader" id="{fbe20d77-e7c8-4218-958b-ae7282fdd845}" />
+	<object class="SpatialiserEffect" id="{ececbce0-0e52-478b-9adb-5fd977ec8955}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+	</object>
 </objects>

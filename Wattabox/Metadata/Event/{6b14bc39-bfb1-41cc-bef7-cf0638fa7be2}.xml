@@ -5,7 +5,7 @@
 			<value>Chiclet_hit</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -104,6 +104,7 @@
 	<object class="MixerBusEffectChain" id="{5258dbda-b7d5-4c4b-bed8-fdef634a5641}">
 		<relationship name="effects">
 			<destination>{c2a39980-d128-45b3-abd2-e6ecfddf23fa}</destination>
+			<destination>{d9514251-60e2-4936-8863-650e7bcc8d54}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cea0aeff-2011-4f91-830d-5ecbf29a2359}" />
@@ -132,6 +133,7 @@
 	</object>
 	<object class="MixerBusFader" id="{3ba50e2e-237d-4e7e-8895-edffe2d902a9}" />
 	<object class="MixerBusFader" id="{c2a39980-d128-45b3-abd2-e6ecfddf23fa}" />
+	<object class="SpatialiserEffect" id="{d9514251-60e2-4936-8863-650e7bcc8d54}" />
 	<object class="Automator" id="{124c9b64-cf72-4919-9828-aee3f0962ef7}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>

@@ -5,7 +5,7 @@
 			<value>Basketball_hit</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -107,12 +107,13 @@
 	<object class="MixerBusEffectChain" id="{1df31a49-17b1-4f20-a257-5905e8b8f197}">
 		<relationship name="effects">
 			<destination>{09c7383d-4018-48fb-b33c-8c18100f4a9b}</destination>
+			<destination>{db8e6610-6782-4000-b115-054ef413d7b6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fbada5f3-0324-4578-8fd2-2a7c0bd365f0}" />
 	<object class="MultiSound" id="{570a102a-0d8d-4e6d-b220-fc6c1306bb89}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-13.5</value>
 		</property>
 		<relationship name="automators">
 			<destination>{7f7957e5-0df8-44ec-a097-ffd778fb2776}</destination>
@@ -130,6 +131,26 @@
 	</object>
 	<object class="MixerBusFader" id="{46888e25-2966-4224-bccf-75d29366bfd0}" />
 	<object class="MixerBusFader" id="{09c7383d-4018-48fb-b33c-8c18100f4a9b}" />
+	<object class="SpatialiserEffect" id="{db8e6610-6782-4000-b115-054ef413d7b6}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+		<property name="minimumDistance">
+			<value>1.39999998</value>
+		</property>
+		<property name="maximumDistance">
+			<value>350</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>2.20000005</value>
+		</property>
+	</object>
 	<object class="Automator" id="{7f7957e5-0df8-44ec-a097-ffd778fb2776}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{d7af7921-bc26-4f2e-b7f2-8c10b22a35aa}">
+	<object class="AudioFile" id="{5c541dd9-5237-43b2-947a-f29513f3b6a0}">
 		<property name="assetPath">
-			<value>Garagem/CardBoard Open 1.wav</value>
+			<value>Throwable_Objects/Basketball/Basketball_throw_11.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.5357142857142857</value>
+			<value>0.39183673469387753</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>

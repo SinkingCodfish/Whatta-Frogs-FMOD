@@ -5,7 +5,7 @@
 			<value>Basketball_grab</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -104,10 +104,14 @@
 	<object class="MixerBusEffectChain" id="{750d7b36-108c-4fad-8112-d02d55e6359e}">
 		<relationship name="effects">
 			<destination>{137d4aed-5de4-4051-909d-95e77f7252e4}</destination>
+			<destination>{b7a253ae-5365-4785-a3fc-9cb9def66878}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{66676ad5-133e-4edf-9c41-16ed13e570cd}" />
 	<object class="MultiSound" id="{b2a511d7-af0a-4938-968a-22c3b33c68a0}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="automators">
 			<destination>{5ce17c48-9561-486b-873e-bb89be73a427}</destination>
 		</relationship>
@@ -125,6 +129,11 @@
 	</object>
 	<object class="MixerBusFader" id="{80146935-f53a-41c0-9512-9565025ba1c9}" />
 	<object class="MixerBusFader" id="{137d4aed-5de4-4051-909d-95e77f7252e4}" />
+	<object class="SpatialiserEffect" id="{b7a253ae-5365-4785-a3fc-9cb9def66878}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="Automator" id="{5ce17c48-9561-486b-873e-bb89be73a427}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>

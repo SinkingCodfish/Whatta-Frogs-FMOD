@@ -5,7 +5,7 @@
 			<value>Ballgun_Shoot</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -107,6 +107,7 @@
 	<object class="MixerBusEffectChain" id="{d80fe66d-ff12-4ea8-808d-22d5deccceca}">
 		<relationship name="effects">
 			<destination>{de3ef3cf-fdcf-4f8c-bee6-1e4a372e3a84}</destination>
+			<destination>{7257eabb-d104-40e1-8c7f-544dc75795ca}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0938ec7c-592e-4357-9a46-788fb62fcb0f}" />
@@ -145,6 +146,7 @@
 	</object>
 	<object class="MixerBusFader" id="{0f7a281f-15a2-45db-8be4-2cd687823b1e}" />
 	<object class="MixerBusFader" id="{de3ef3cf-fdcf-4f8c-bee6-1e4a372e3a84}" />
+	<object class="SpatialiserEffect" id="{7257eabb-d104-40e1-8c7f-544dc75795ca}" />
 	<object class="Automator" id="{f6c96e97-82ac-4368-84ec-967ca2fe3f64}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>

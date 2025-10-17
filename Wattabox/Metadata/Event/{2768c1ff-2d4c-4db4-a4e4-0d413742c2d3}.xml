@@ -5,7 +5,7 @@
 			<value>Apple_grab</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -100,6 +100,7 @@
 	<object class="MixerBusEffectChain" id="{a737efdb-7b07-4ca1-90f3-ae81f8809f0b}">
 		<relationship name="effects">
 			<destination>{7a6fdbde-b82a-4216-b66a-bee27d7e68b6}</destination>
+			<destination>{d4157369-44dc-4246-917c-1b8eda6b126b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bcf85fe9-c7de-4536-828b-b567abe528c9}" />
@@ -125,6 +126,11 @@
 	</object>
 	<object class="MixerBusFader" id="{0e8f71b8-0ea0-416e-b19d-f155a4feef67}" />
 	<object class="MixerBusFader" id="{7a6fdbde-b82a-4216-b66a-bee27d7e68b6}" />
+	<object class="SpatialiserEffect" id="{d4157369-44dc-4246-917c-1b8eda6b126b}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{0c9278b8-249e-4b3d-bcb4-af92f1fdc442}">
 		<relationship name="audioFile">
 			<destination>{adf5f115-9c8b-435f-a83d-12a54b4ed613}</destination>

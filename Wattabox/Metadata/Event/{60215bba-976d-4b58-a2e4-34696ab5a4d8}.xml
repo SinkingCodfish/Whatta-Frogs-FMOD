@@ -5,7 +5,7 @@
 			<value>Pop_object</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -109,10 +109,14 @@
 	<object class="MixerBusEffectChain" id="{05c38f98-2d32-45b7-b1c3-f644d83abc49}">
 		<relationship name="effects">
 			<destination>{495a6756-0466-4cb0-bd74-ee27e251cc33}</destination>
+			<destination>{7c534857-636e-4651-865f-dc95f953e5ce}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e681c46b-aed1-41d4-9c90-c9933ff90153}" />
 	<object class="MultiSound" id="{c44b3788-db27-42d7-9f37-f225d33e3a18}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="pitch">
 			<value>2.4000001</value>
 		</property>
@@ -130,7 +134,7 @@
 	</object>
 	<object class="MultiSound" id="{d22544a7-16d6-4ab5-8bce-1508e1dd185c}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-14.5</value>
 		</property>
 		<property name="pitch">
 			<value>6</value>
@@ -141,7 +145,7 @@
 	</object>
 	<object class="SingleSound" id="{ccd380c3-e0f9-4420-a35a-b8336f7b508a}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-20</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{26bafdfb-2ac8-448c-954f-b69813934ebc}</destination>
@@ -149,6 +153,11 @@
 	</object>
 	<object class="MixerBusFader" id="{bd572db2-0899-4621-b26f-ebaad5e5a4bd}" />
 	<object class="MixerBusFader" id="{495a6756-0466-4cb0-bd74-ee27e251cc33}" />
+	<object class="SpatialiserEffect" id="{7c534857-636e-4651-865f-dc95f953e5ce}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="Automator" id="{26f82408-450b-4da2-84b5-c2d88b6ee751}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>
