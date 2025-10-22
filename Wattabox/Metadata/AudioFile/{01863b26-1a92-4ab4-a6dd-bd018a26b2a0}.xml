@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{01863b26-1a92-4ab4-a6dd-bd018a26b2a0}">
 		<property name="assetPath">
-			<value>Throwable_Objects/Basketball/Basketball_throw_02.mp3</value>
+			<value>Throwable_Objects/Basketball/throw/Basketball_throw_02.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
