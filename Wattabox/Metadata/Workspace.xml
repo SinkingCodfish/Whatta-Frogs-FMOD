@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{ec3b7a26-8ebd-487d-80b4-e119bc4362b9}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../BoxGame/Content/FMOD</value>
+			<value>../../../BoxGame/Content/FMOD</value>
 		</property>
 		<property name="builtBanksMirrorBrowserFolderHierarchy">
 			<value>true</value>
