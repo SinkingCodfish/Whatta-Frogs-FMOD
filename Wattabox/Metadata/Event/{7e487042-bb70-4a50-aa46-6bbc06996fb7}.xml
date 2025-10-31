@@ -5,7 +5,7 @@
 			<value>Tomato_grab</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{fc417212-e4bc-43cb-8f57-e75f406336c3}">
 		<relationship name="effects">
 			<destination>{e28f3482-2872-41c5-bc5d-f620ec08ec6b}</destination>
+			<destination>{ed75e9e4-dbb3-41d1-a8d2-a83bbd9359eb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{801cfd31-ae6f-4c03-a03e-60ff3f47b867}" />
@@ -113,6 +114,7 @@
 	</object>
 	<object class="MixerBusFader" id="{00410d1c-364f-47d2-8950-427bbe671f4e}" />
 	<object class="MixerBusFader" id="{e28f3482-2872-41c5-bc5d-f620ec08ec6b}" />
+	<object class="SpatialiserEffect" id="{ed75e9e4-dbb3-41d1-a8d2-a83bbd9359eb}" />
 	<object class="SingleSound" id="{92cca512-08e9-4fb2-8f3f-3315bbd37ab1}">
 		<relationship name="audioFile">
 			<destination>{adf5f115-9c8b-435f-a83d-12a54b4ed613}</destination>

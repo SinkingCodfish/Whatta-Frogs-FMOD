@@ -5,7 +5,7 @@
 			<value>Money_grab</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -100,12 +100,16 @@
 	<object class="MixerBusEffectChain" id="{288bfe21-c98f-47a1-a6d8-c9628cba1f76}">
 		<relationship name="effects">
 			<destination>{91181587-31d7-45e4-bc23-34d0ada5e99b}</destination>
+			<destination>{a9b9b846-e89c-4ac6-bcb5-a61ec845ffb6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{39697d43-244f-4ea8-9ecd-edbb5ee902d9}" />
 	<object class="SingleSound" id="{16944c0b-5c57-4759-86c3-bff8435a987d}">
+		<property name="startOffset">
+			<value>25.5</value>
+		</property>
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-14</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{a2ea7f17-0238-45cb-bd78-c299817a4318}</destination>
@@ -125,6 +129,7 @@
 	</object>
 	<object class="MixerBusFader" id="{a9758dd5-eb99-4ca9-a676-c46f4d388c31}" />
 	<object class="MixerBusFader" id="{91181587-31d7-45e4-bc23-34d0ada5e99b}" />
+	<object class="SpatialiserEffect" id="{a9b9b846-e89c-4ac6-bcb5-a61ec845ffb6}" />
 	<object class="SingleSound" id="{e466fce2-32de-486b-9c09-87e760c8070d}">
 		<property name="startOffset">
 			<value>4.5</value>

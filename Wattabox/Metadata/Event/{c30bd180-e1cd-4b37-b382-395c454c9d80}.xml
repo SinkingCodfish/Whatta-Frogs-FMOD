@@ -5,7 +5,7 @@
 			<value>Fly_hold</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -119,6 +119,7 @@
 	<object class="MixerBusEffectChain" id="{b0299f62-8d76-4db6-b81b-9e0bde95300e}">
 		<relationship name="effects">
 			<destination>{89f1b1ca-c3a0-47fc-9dba-56763870d021}</destination>
+			<destination>{460f3e5d-e228-4453-8523-1ee9e8afe076}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ceef3480-3a8f-4a08-be38-1bde255d8ea0}" />
@@ -154,4 +155,9 @@
 	</object>
 	<object class="MixerBusFader" id="{dd48e59a-64e1-4a6f-b2c2-6b9f6d31c7dd}" />
 	<object class="MixerBusFader" id="{89f1b1ca-c3a0-47fc-9dba-56763870d021}" />
+	<object class="SpatialiserEffect" id="{460f3e5d-e228-4453-8523-1ee9e8afe076}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+	</object>
 </objects>

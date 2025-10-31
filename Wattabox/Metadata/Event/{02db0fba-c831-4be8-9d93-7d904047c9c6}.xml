@@ -112,6 +112,9 @@
 		<property name="volume">
 			<value>-2</value>
 		</property>
+		<property name="pitch">
+			<value>1</value>
+		</property>
 		<relationship name="automators">
 			<destination>{5ce17c48-9561-486b-873e-bb89be73a427}</destination>
 		</relationship>

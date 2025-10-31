@@ -5,7 +5,7 @@
 			<value>Chiclet_grab</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -108,6 +108,7 @@
 	<object class="MixerBusEffectChain" id="{796f36f8-c432-400d-952e-8f7e33c4829e}">
 		<relationship name="effects">
 			<destination>{810cd0b4-6219-4521-bab4-5302c294abfc}</destination>
+			<destination>{5e62e5a4-9714-4b61-9eb2-f4b95ff583a5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8d8093eb-dcff-45f2-8dab-cd1f4080ce5e}" />
@@ -143,6 +144,7 @@
 	</object>
 	<object class="MixerBusFader" id="{bbf45eb0-cbaf-430b-854c-2712a71f9b15}" />
 	<object class="MixerBusFader" id="{810cd0b4-6219-4521-bab4-5302c294abfc}" />
+	<object class="SpatialiserEffect" id="{5e62e5a4-9714-4b61-9eb2-f4b95ff583a5}" />
 	<object class="SingleSound" id="{5625dab4-c7ca-4e51-a0d8-bdb8b914bca0}">
 		<property name="startOffset">
 			<value>7</value>

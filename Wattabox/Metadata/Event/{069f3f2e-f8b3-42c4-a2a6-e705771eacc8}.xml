@@ -5,7 +5,7 @@
 			<value>Fly_grab</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca9552f0-6864-47ea-9415-170d96d80f37}</destination>
@@ -100,6 +100,7 @@
 	<object class="MixerBusEffectChain" id="{1cf154cf-8322-4523-ae68-fb729db415ff}">
 		<relationship name="effects">
 			<destination>{9efb0bca-6a12-4747-92ba-26f31f0309e8}</destination>
+			<destination>{fdceddac-9c9d-46c1-a14c-f12ba75c30c3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{393ba409-6002-4c34-8b4d-fd8ee2cd447a}" />
@@ -125,6 +126,7 @@
 	</object>
 	<object class="MixerBusFader" id="{ea801c8b-3c8c-4545-9c37-4d4dddf8c2b4}" />
 	<object class="MixerBusFader" id="{9efb0bca-6a12-4747-92ba-26f31f0309e8}" />
+	<object class="SpatialiserEffect" id="{fdceddac-9c9d-46c1-a14c-f12ba75c30c3}" />
 	<object class="SingleSound" id="{dbbca8d9-6f8b-4fb6-8883-76d36a8c97fe}">
 		<property name="startOffset">
 			<value>5</value>
