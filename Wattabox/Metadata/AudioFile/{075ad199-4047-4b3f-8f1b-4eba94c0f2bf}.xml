@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{5ccccdc5-f4f3-4687-a20b-70fb115d035c}">
+	<object class="AudioFile" id="{075ad199-4047-4b3f-8f1b-4eba94c0f2bf}">
 		<property name="assetPath">
-			<value>Geral/Trade_refuse.mp3</value>
+			<value>Geral/Score_count.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>24</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.04</value>
+			<value>0.4179591836734694</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>
