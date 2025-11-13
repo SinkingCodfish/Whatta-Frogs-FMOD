@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{f1f2edef-cbd8-426c-8c80-084f5aa84ec4}">
+	<object class="AudioFile" id="{d8266dd5-692d-4a51-9c20-723260c26cfa}">
 		<property name="assetPath">
-			<value>Geral/Defeat.mp3</value>
+			<value>seamless.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>6.3216326530612248</value>
+			<value>6.896326530612245</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{ee542425-3c3a-4572-80f7-ca1a548e94ee}</destination>
