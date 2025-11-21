@@ -94,6 +94,9 @@
 		<property name="length">
 			<value>0.31346938775510202</value>
 		</property>
+		<property name="pitch">
+			<value>-3.20000005</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{719ac995-1906-4343-a593-76bf174acb05}</destination>
 		</relationship>
@@ -113,11 +116,12 @@
 			<destination>{dad7d66a-9eb2-47ff-9b51-02259c4b43bf}</destination>
 			<destination>{65633ecf-cce1-473c-b518-919bdd9faec7}</destination>
 			<destination>{baa4065c-f1f3-4f05-ba6f-9e1b1dd1cf0d}</destination>
+			<destination>{f87f1999-6d31-4a70-a13f-79612554821f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f8380fe9-e379-4ee5-8163-09d0c7957ce2}">
 		<property name="volume">
-			<value>4</value>
+			<value>-1</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -160,6 +164,14 @@
 			<destination>{888ceb81-870c-41d7-9a37-5ee920dfa975}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{f87f1999-6d31-4a70-a13f-79612554821f}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{bfe39ccb-d4ef-4673-89cb-46b9cf0ac219}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{4da7e815-2b5d-4412-b351-87527fabcb33}">
 		<relationship name="effects">
 			<destination>{1e35a180-d032-4d2d-880e-0db1306128f8}</destination>
@@ -183,12 +195,12 @@
 	</object>
 	<object class="DistortionEffect" id="{d906dcd7-f06f-4b42-be6a-a267fa7b0e54}">
 		<property name="level">
-			<value>0.465000004</value>
+			<value>0.819999993</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{273230e0-38a2-4c29-873a-610138c0c0cb}">
 		<property name="filterTypeA">
-			<value>6</value>
+			<value>4</value>
 		</property>
 		<property name="filterTypeE">
 			<value>14</value>
