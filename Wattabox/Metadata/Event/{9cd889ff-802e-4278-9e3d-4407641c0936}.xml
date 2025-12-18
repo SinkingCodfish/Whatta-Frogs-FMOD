@@ -113,7 +113,10 @@
 	<object class="MixerBusPanner" id="{91b42567-2590-488a-b188-64feff17dec0}" />
 	<object class="MultiSound" id="{857fecb6-f876-48e3-a7dd-4cdfd6817c58}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-6</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="automators">
 			<destination>{1b224cd8-f763-4f84-b086-876ee3914ae5}</destination>
@@ -129,11 +132,7 @@
 	</object>
 	<object class="MixerBusFader" id="{0f724235-c836-47e6-abd1-75b94380d332}" />
 	<object class="MixerBusFader" id="{dc44f2d5-75d4-471d-9efb-94c14ba1aa8b}" />
-	<object class="SpatialiserEffect" id="{ed6d4dce-1016-4891-9483-023e349d4371}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
-	</object>
+	<object class="SpatialiserEffect" id="{ed6d4dce-1016-4891-9483-023e349d4371}" />
 	<object class="Automator" id="{1b224cd8-f763-4f84-b086-876ee3914ae5}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>
